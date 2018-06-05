@@ -1,10 +1,21 @@
 'use strict';
+const path = require('path');
 
-/**
- * egg-egg-nuxt default config
- * @member Config#eggNuxt
- * @property {String} SOME_KEY - some description
- */
-exports.eggNuxt = {
+module.exports = appInfo => {
 
+  exports.keys = appInfo.name + '#egg-nuxt';
+
+  exports.core = 'egg-nuxt';
+
+  exports.nuxt = {
+    srcDir: path.join(appInfo.baseDir, './resources'),
+    rootDir: path.join(appInfo.baseDir)
+  };
+
+  // allow website request throw up crsf check
+  exports.security = {
+    ignoreJson: true,
+  };
+
+  return exports;
 };

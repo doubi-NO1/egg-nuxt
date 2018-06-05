@@ -8,9 +8,13 @@
   "keywords": [
     "egg",
     "eggPlugin",
-    "egg-plugin"
+    "egg-plugin",
+    "nuxt",
+    "egg-nuxt"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "nuxt": "latest"
+  },
   "devDependencies": {
     "autod": "^3.0.0",
     "autod-egg": "^1.0.0",
@@ -44,12 +48,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-egg-nuxt.git"
+    "url": "git+https://github.com/doubi-NO1/egg-nuxt.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/doubi-NO1/egg-nuxt/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-egg-nuxt#readme",
+  "homepage": "https://github.com/doubi-NO1/egg-nuxt/blob/master/README.zh_CN.md",
   "author": "8-shen",
   "license": "MIT"
 }
