@@ -1,11 +1,12 @@
 'use strict';
 
 module.exports = app => {
-  app.config.coreMiddleware.splice(0, 0, 'nuxtrender');
+    app.config.coreMiddleware.unshift('errorHandler');
+    app.config.coreMiddleware.unshift('nuxtrender');
   app.beforeStart(async () => {
     try {
+      await app.nuxtBuild.build();
       if (!app.config.nuxt.dev) {
-        await app.nuxtBuild.build();
         console.log('[nuxt] Building done'); // eslint-disable-line no-console
       }
     } catch (error) {
