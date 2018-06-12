@@ -20,7 +20,7 @@ exports.egg = {
 };
 ```
 
-##Nuxt Configuration
+## Import Nuxt Configuration
 
 ```js
 // {app_root}/config/config.default.js
