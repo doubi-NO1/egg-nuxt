@@ -1,8 +1,8 @@
 'use strict';
 
 module.exports = app => {
-    app.config.coreMiddleware.unshift('errorHandler');
-    app.config.coreMiddleware.unshift('nuxtrender');
+  app.config.coreMiddleware.unshift('errorHandler');
+  app.config.coreMiddleware.unshift('nuxtrender');
   app.beforeStart(async () => {
     try {
       await app.nuxtBuild.build();

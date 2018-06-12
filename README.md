@@ -14,7 +14,7 @@ $ npm i egg-nuxt-lib --save
 
 ```js
 // {app_root}/config/plugin.js
-exports.egg = {
+exports.nuxt = {
   enable: true,
   package: 'egg-nuxt-lib',
 };
