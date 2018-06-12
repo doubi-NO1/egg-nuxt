@@ -1,76 +1,59 @@
-# egg-egg-nuxt
-
-[![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
-[![Test coverage][codecov-image]][codecov-url]
-[![David deps][david-image]][david-url]
-[![Known Vulnerabilities][snyk-image]][snyk-url]
-[![npm download][download-image]][download-url]
-
-[npm-image]: https://img.shields.io/npm/v/egg-egg-nuxt.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/egg-egg-nuxt
-[travis-image]: https://img.shields.io/travis/eggjs/egg-egg-nuxt.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-egg-nuxt
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-egg-nuxt.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-egg-nuxt?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-egg-nuxt.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-egg-nuxt
-[snyk-image]: https://snyk.io/test/npm/egg-egg-nuxt/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/egg-egg-nuxt
-[download-image]: https://img.shields.io/npm/dm/egg-egg-nuxt.svg?style=flat-square
-[download-url]: https://npmjs.org/package/egg-egg-nuxt
-
+# egg-nuxt-lib
+##描述
+- eggjs框架的nuxt插件。
+- 本插件来源于[@liyanlong的nuxt-egg](https://github.com/liyanlong/nuxt-egg)，由于作者已经很久没有进行维护了，在最新的egg和nuxt版本下已经无法运行，因此迁移过来进行了改造。
 <!--
-Description here.
+The Nuxt plugin for eggjs.
 -->
 
 ## 依赖说明
 
-### 依赖的 egg 版本
+### 依赖的库版本
 
-egg-egg-nuxt 版本 | egg 1.x
---- | ---
-1.x | 😁
-0.x | ❌
+version | egg | nuxt
+--- | --- | ---
+2.x | 😁 |  ❌
+1.x | ❌ |  😁
+0.x | ❌ |  ❌
 
 ### 依赖的插件
 <!--
 
 如果有依赖其它插件，请在这里特别说明。如
 
-- security
-- multipart
+- egg.js
+- nuxt.js
 
 -->
+##安装
+```bash
+  npm install egg-nuxt-lib --save
+```
 
 ## 开启插件
 
-```js
+```javascript
 // config/plugin.js
-exports.eggNuxt = {
+exports.nuxt = {
   enable: true,
-  package: 'egg-egg-nuxt',
+  package: 'egg-nuxt-lib',
 };
 ```
 
-## 使用场景
+##导入nuxt.config.js配置
+```javascript
+//config.default.js
+exports.nuxt = require('./nuxt.config')
+```
 
-- Why and What: 描述为什么会有这个插件，它主要在完成一件什么事情。
-尽可能描述详细。
-- How: 描述这个插件是怎样使用的，具体的示例代码，甚至提供一个完整的示例，并给出链接。
+## nuxt.config.js详细配置
 
-## 详细配置
+请到 [nuxtjs.org](https://nuxtjs.org/guide/configuration) 查看详细配置项说明。
 
-请到 [config/config.default.js](config/config.default.js) 查看详细配置项说明。
-
-## 单元测试
-
-<!-- 描述如何在单元测试中使用此插件，例如 schedule 如何触发。无则省略。-->
 
 ## 提问交流
 
-请到 [egg issues](https://github.com/eggjs/egg/issues) 异步交流。
-
+请到 [egg-nuxt-lib issues](https://github.com/doubi-NO1/egg-nuxt/issues) 异步交流。
 ## License
 
 [MIT](LICENSE)

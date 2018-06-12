@@ -1,40 +1,16 @@
-# egg-egg-nuxt
-
-[![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
-[![Test coverage][codecov-image]][codecov-url]
-[![David deps][david-image]][david-url]
-[![Known Vulnerabilities][snyk-image]][snyk-url]
-[![npm download][download-image]][download-url]
-
-[npm-image]: https://img.shields.io/npm/v/egg-egg-nuxt.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/egg-egg-nuxt
-[travis-image]: https://img.shields.io/travis/eggjs/egg-egg-nuxt.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-egg-nuxt
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-egg-nuxt.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-egg-nuxt?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-egg-nuxt.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-egg-nuxt
-[snyk-image]: https://snyk.io/test/npm/egg-egg-nuxt/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/egg-egg-nuxt
-[download-image]: https://img.shields.io/npm/dm/egg-egg-nuxt.svg?style=flat-square
-[download-url]: https://npmjs.org/package/egg-egg-nuxt
-
-<!--
-Description here.
--->
+# egg-nuxt-lib
 
 ## Install
 
 ```bash
-$ npm i egg-egg-nuxt --save
+$ npm i egg-nuxt-lib --save
 ```
 
 ## Usage
 
 ```js
 // {app_root}/config/plugin.js
-exports.eggNuxt = {
+exports.egg = {
   enable: true,
   package: 'egg-egg-nuxt',
 };
@@ -44,19 +20,16 @@ exports.eggNuxt = {
 
 ```js
 // {app_root}/config/config.default.js
-exports.eggNuxt = {
-};
+exports.nuxt = require(./nuxt.config);
 ```
 
-see [config/config.default.js](config/config.default.js) for more detail.
-
-## Example
+see [nuxtjs.org](https://nuxtjs.org/guide/configuration) for more detail.
 
 <!-- example here -->
 
 ## Questions & Suggestions
 
-Please open an issue [here](https://github.com/eggjs/egg/issues).
+Please open an issue [here](https://github.com/doubi-NO1/egg-nuxt/issues).
 
 ## License
 
