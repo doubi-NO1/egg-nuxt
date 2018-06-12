@@ -1,5 +1,9 @@
 # egg-nuxt-lib
 
+##Description
+- Based on [@liyanlong's nuxt-egg](https://github.com/liyanlong/nuxt-egg)
+- Because of that lib doesn't work with the latest version of Eggjs & Nuxtjs yet,I'v created a new lib here.
+
 ## Install
 
 ```bash
@@ -12,7 +16,7 @@ $ npm i egg-nuxt-lib --save
 // {app_root}/config/plugin.js
 exports.egg = {
   enable: true,
-  package: 'egg-egg-nuxt',
+  package: 'egg-nuxt-lib',
 };
 ```
 
