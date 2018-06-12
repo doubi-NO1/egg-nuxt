@@ -1,8 +1,8 @@
 # egg-nuxt-lib
 
-##Description
+## Description
 - Based on [@liyanlong's nuxt-egg](https://github.com/liyanlong/nuxt-egg)
-- Because of that lib doesn't work with the latest version of Eggjs & Nuxtjs yet,I'v created a new lib here.
+- Because of that lib doesn't work with the latest version of Eggjs & Nuxtjs yet. So I'v created a new lib here.
 
 ## Install
 
