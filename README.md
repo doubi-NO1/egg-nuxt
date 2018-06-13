@@ -4,6 +4,27 @@
 - Based on [@liyanlong's nuxt-egg](https://github.com/liyanlong/nuxt-egg)
 - Because of that lib doesn't work with the latest version of Eggjs & Nuxtjs yet. So I'v created a new lib here.
 
+
+## Dependency description
+### What is Egg.js
+- Better enterprise frameworks and apps with Node.js & Koa.
+- For more infomation please visit [eggjs.org](https://eggjs.org/en/index.html).
+
+### What is Nuxt.js
+
+- Nuxt.js is a framework for creating Universal Vue.js Applications.
+
+- Its main scope is UI rendering while abstracting away the client/server distribution.
+
+- Our goal is to create a framework flexible enough that you can use it as a main project base or in addition to your current project based on Node.js.
+
+- Nuxt.js presets all the configuration needed to make your development of a Vue.js Application Server Rendered more enjoyable.
+
+- In addition, we also provide another deployment option called: nuxt generate. It will build a Static Generated Vue.js Application. We believe that option could be the next big step in the development of Web Applications with microservices.
+
+- As a framework, Nuxt.js comes with a lot of features to help you in your development between the client side and the server side such as Asynchronous Data, Middleware, Layouts, etc.
+- For more infomation please visit [nuxtjs.org](https://nuxtjs.org/guide).
+
 ## Install
 
 ```bash

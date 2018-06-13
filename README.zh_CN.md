@@ -10,13 +10,18 @@ The Nuxt plugin for eggjs.
 
 ### 依赖的库版本
 
-version | egg | nuxt
+version | Egg | Nuxt
 --- | --- | ---
 2.x | 😁 |  ❌
 1.x | ❌ |  😁
 0.x | ❌ |  ❌
 
-### 依赖的插件
+### 什么是Egg.js
+
+- Better enterprise frameworks and apps with Node.js & Koa([查看更多](https://eggjs.org/zh-cn/intro/))
+
+### 什么是Nuxt.js
+- 一款基于 Vue.js 的服务端渲染应用框架([查看更多](https://nuxtjs.org/guide))
 <!--
 
 如果有依赖其它插件，请在这里特别说明。如
