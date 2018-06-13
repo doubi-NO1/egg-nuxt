@@ -56,6 +56,9 @@ exports.nuxt = require('./nuxt.config')
 请到 [nuxtjs.org](https://nuxtjs.org/guide/configuration) 查看详细配置项说明。
 
 
+## 在线体验
+请访问[http://egg-nuxt.demos.party](http://egg-nuxt.demos.party/)
+
 ## 提问交流
 
 请到 [egg-nuxt-lib issues](https://github.com/doubi-NO1/egg-nuxt/issues) 异步交流。

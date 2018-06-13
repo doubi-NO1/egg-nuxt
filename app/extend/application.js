@@ -12,7 +12,7 @@ module.exports = {
     return this[NUXT];
   },
   get nuxtBuild() {
-    if (!this[NUXTBUILD] && this.nuxt.options.dev) {
+    if (!this[NUXTBUILD]) {
       this[NUXTBUILD] = new Builder(this.nuxt);
     }
     return this[NUXTBUILD];

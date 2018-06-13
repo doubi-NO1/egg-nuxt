@@ -54,8 +54,12 @@ exports.nuxt = {
 // {app_root}/config/config.default.js
 exports.nuxt = require(./nuxt.config);
 ```
-
 see [nuxtjs.org](https://nuxtjs.org/guide/configuration) for more detail.
+
+## Online demo
+Please visit [http://egg-nuxt.demos.party](http://egg-nuxt.demos.party).
+
+
 
 <!-- example here -->
 
