@@ -1,5 +1,5 @@
 # egg-nuxt-lib
-##描述
+## 描述
 - eggjs框架的nuxt插件。
 - 本插件来源于[@liyanlong的nuxt-egg](https://github.com/liyanlong/nuxt-egg)，由于作者已经很久没有进行维护了，在最新的egg和nuxt版本下已经无法运行，因此对其进行了改造。
 <!--
