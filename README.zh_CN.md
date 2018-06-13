@@ -57,7 +57,8 @@ exports.nuxt = require('./nuxt.config')
 
 
 ## 在线体验
-请访问[http://egg-nuxt.demos.party](http://egg-nuxt.demos.party/)
+- 请访问[http://egg-nuxt.demos.party](http://egg-nuxt.demos.party/)
+- 你可以在这里[查看](https://github.com/doubi-NO1/egg-nuxt-demo)demo源码
 
 ## 提问交流
 

@@ -57,8 +57,8 @@ exports.nuxt = require(./nuxt.config);
 see [nuxtjs.org](https://nuxtjs.org/guide/configuration) for more detail.
 
 ## Online demo
-Please visit [http://egg-nuxt.demos.party](http://egg-nuxt.demos.party).
-
+- Please visit [http://egg-nuxt.demos.party](http://egg-nuxt.demos.party).
+- You can see the source of this demo [here](https://github.com/doubi-NO1/egg-nuxt-demo).
 
 
 <!-- example here -->
