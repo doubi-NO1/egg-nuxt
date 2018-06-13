@@ -6,6 +6,13 @@
 
 
 ## Dependency description
+### Dependency version
+Version | Egg | Nuxt
+--- | --- | ---
+2.x | 😁 |  ❌
+1.x | ❌ |  😁
+0.x | ❌ |  ❌
+
 ### What is Egg.js
 - Better enterprise frameworks and apps with Node.js & Koa.
 - For more infomation please visit [eggjs.org](https://eggjs.org/en/index.html).

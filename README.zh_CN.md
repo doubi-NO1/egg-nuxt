@@ -10,7 +10,7 @@ The Nuxt plugin for eggjs.
 
 ### 依赖的库版本
 
-version | Egg | Nuxt
+Version | Egg | Nuxt
 --- | --- | ---
 2.x | 😁 |  ❌
 1.x | ❌ |  😁
