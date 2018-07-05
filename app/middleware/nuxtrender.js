@@ -3,7 +3,7 @@
 module.exports = function (options, app) {
   return async (ctx, next) => {
     // webpack hot reload
-    if (ctx.path !== '/__webpack_hmr') {
+    //if (ctx.path !== '/__webpack_hmr') {
       await next();
       // ignore status if not 404
       if (ctx.status !== 404 || ctx.method !== 'GET') {
@@ -23,6 +23,6 @@ module.exports = function (options, app) {
         app.nuxt.render(ctx.req, ctx.res, resolve);
       });
       next();
-    }
+    //}
   }
 };

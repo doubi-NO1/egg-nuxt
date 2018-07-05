@@ -1,6 +1,6 @@
 {
   "name": "egg-nuxt-lib",
-  "version": "1.1.14",
+  "version": "1.1.17",
   "description": "The Nuxt plugin for eggjs.",
   "eggPlugin": {
     "name": "eggNuxt"
