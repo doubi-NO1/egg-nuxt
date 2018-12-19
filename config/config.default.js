@@ -7,7 +7,10 @@ module.exports = appInfo => {
   const config = {
     keys: appInfo.name + '#egg-nuxt',
     core: 'egg-nuxt',
-    nuxt: require('./config.nuxt'), 
+    nuxt: {
+      srcDir: path.join(appInfo.baseDir, './resources'),
+      rootDir: path.join(appInfo.baseDir)
+    },
     security:{
       ignoreJson: true
     }
