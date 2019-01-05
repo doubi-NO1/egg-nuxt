@@ -13,7 +13,7 @@
     "egg-nuxt"
   ],
   "dependencies": {
-    "nuxt": "latest"
+    "nuxt": "^2.3.4"
   },
   "devDependencies": {
     "autod": "^3.0.0",
@@ -63,7 +63,7 @@
     "lib": "lib",
     "test": "test"
   },
-  "publishConfig" : {
-    "registry" : "https://registry.npmjs.org"
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   }
 }

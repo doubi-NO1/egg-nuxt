@@ -2,7 +2,8 @@
 const { Nuxt, Builder } = require('nuxt');
 const NUXT = Symbol('Application#nuxt');
 const NUXTBUILD = Symbol('Application#nuxtBuild');
-const { loadNuxtConfig } = require('../../lib/utils'); 
+const { loadNuxtConfig } = require('../../lib/utils');
+
 
 module.exports = {
   get nuxt() {
@@ -16,5 +17,5 @@ module.exports = {
       this[NUXTBUILD] = new Builder(this.nuxt);
     }
     return this[NUXTBUILD];
-  }
+  },
 };
